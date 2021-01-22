@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+
+        <item
+            android:id="@+id/nav_myfriends"
+            android:icon="@drawable/myfriends"
+            android:title="My Friends" />
+        <item
+            android:id="@+id/nav_addfriends"
+            android:icon="@drawable/addfriends"
+            android:title="Add Friends" />
+        <item
+            android:id="@+id/nav_mygames"
+            android:icon="@drawable/mygames"
+            android:title="My Games" />
+        <item
+            android:id="@+id/nav_tournaments"
+            android:icon="@drawable/tournaments"
+            android:title="Tournaments" />
+        <item
+            android:id="@+id/nav_profile"
+            android:icon="@drawable/profile"
+            android:title="My Profile" />
+        <item
+            android:id="@+id/nav_settings"
+            android:icon="@drawable/ic_menu_manage"
+            android:title="Settings" />
+        <item
+            android:id="@+id/nav_logout"
+            android:icon="@drawable/logout"
+            android:title="Logout" />
+    </group>
+
+    <item android:title="Communicate">
+        <menu>
+
+            <item
+                android:id="@+id/nav_share"
+                android:icon="@drawable/ic_menu_share"
+                android:title="Share" />
+            <item
+                android:id="@+id/nav_send"
+                android:icon="@drawable/ic_menu_send"
+                android:title="Send" />
+        </menu>
+    </item>
+
+</menu>

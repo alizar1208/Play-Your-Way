@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorProfile"
+    tools:context=".HostGame">
+
+    <Spinner
+        android:id="@+id/spinner"
+        android:background="@drawable/inputtext"
+        android:layout_width="270dp"
+        android:layout_height="35dp"
+        android:layout_marginTop="20dp"
+        android:layout_centerHorizontal="true"/>
+    <EditText
+        android:id="@+id/teamname"
+        android:layout_width="270dp"
+        android:layout_height="35dp"
+        android:paddingLeft="10dp"
+        android:layout_marginTop="15dp"
+        android:background="@drawable/inputtext"
+        android:ems="10"
+        android:hint="@string/teamname"
+        android:inputType="textPersonName"
+        android:layout_below="@+id/spinner"
+        android:layout_centerHorizontal="true"/>
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/playdate"
+        android:layout_below="@+id/teamname"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="15dp">
+    <TextView
+        android:id="@+id/date"
+        android:paddingTop="5dp"
+        android:textSize="15dp"
+        android:layout_width="210dp"
+        android:textColor="@color/colorPrimary"
+        android:layout_height="35dp"
+        android:background="@drawable/inputtext"
+        android:paddingLeft="10dp"
+        android:ems="10"
+        android:hint="@string/date"
+        android:inputType="date"
+        />
+
+
+    <ImageButton
+        android:id="@+id/calender"
+        android:layout_width="48dp"
+        android:layout_marginLeft="10dp"
+        android:layout_height="40dp"
+        android:src="@drawable/date"
+        android:layout_toRightOf="@+id/date"/>
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/playdate"
+        android:id="@+id/playtime"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="10dp">
+
+    <TextView
+        android:id="@+id/time"
+        android:paddingTop="5dp"
+        android:textSize="15dp"
+        android:layout_width="210dp"
+        android:layout_height="35dp"
+        android:ems="10"
+        android:paddingLeft="10dp"
+        android:textColor="@color/colorPrimary"
+        android:hint="@string/time"
+        android:background="@drawable/inputtext"
+        android:inputType="time"
+        />
+
+    <ImageButton
+        android:id="@+id/clock"
+        android:layout_marginLeft="10dp"
+        android:layout_width="48dp"
+        android:layout_height="40dp"
+        android:src="@drawable/time"
+        android:layout_toRightOf="@+id/time"/>
+    </RelativeLayout>
+
+
+    <Button
+        android:id="@+id/addplayers"
+        android:layout_width="270dp"
+        android:layout_height="wrap_content"
+        android:background="@drawable/button"
+        android:text="Add Players"
+        android:textColor="@color/buttontext"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="80dp"
+        android:layout_alignParentBottom="true"/>
+
+</RelativeLayout>

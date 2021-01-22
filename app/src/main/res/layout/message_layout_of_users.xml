@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_marginLeft="7dp"
+    android:orientation="vertical"
+    android:layout_marginBottom="4dp"
+    android:layout_marginTop="4dp"
+    >
+    <LinearLayout
+        android:id="@+id/received"
+        android:layout_width="wrap_content"
+        android:orientation="vertical"
+        android:background="@drawable/message"
+        android:layout_height="wrap_content">
+        <TextView
+            android:id="@+id/receivername"
+            android:layout_width="wrap_content"
+            android:layout_marginRight="10dp"
+            android:text="Name"
+            android:layout_marginLeft="7dp"
+            android:textAllCaps="true"
+            android:textSize="14dp"
+            android:textColor="#ffffff"
+            android:layout_marginTop="5dp"
+            android:layout_height="wrap_content" />
+        <TextView
+            android:id="@+id/receivedmessage"
+            android:layout_width="wrap_content"
+            android:layout_marginRight="10dp"
+            android:layout_height="wrap_content"
+            android:text="Message"
+            android:layout_marginLeft="7dp"
+            android:textColor="#ffffff"
+            android:layout_marginBottom="5dp"
+            android:layout_marginTop="5dp"
+            android:textSize="17dp"
+            />
+
+    </LinearLayout>
+
+
+        <TextView
+            android:id="@+id/messagesend"
+            android:layout_width="wrap_content"
+            android:layout_marginRight="10dp"
+            android:layout_alignParentRight="true"
+            android:layout_height="wrap_content"
+            android:background="@drawable/message"
+            android:paddingLeft="15dp"
+            android:paddingRight="15dp"
+            android:text="Message"
+            android:paddingTop="5dp"
+            android:paddingBottom="5dp"
+            android:layout_marginLeft="7dp"
+            android:textColor="#ffffff"
+            android:textSize="17dp"
+            />
+
+
+</RelativeLayout>

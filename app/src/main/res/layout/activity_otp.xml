@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorProfile"
+    tools:context=".Otp">
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:background="@drawable/button"
+        android:onClick="SignUp"
+        android:text="@string/enter"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@+id/editTextCode"
+        android:layout_marginTop="60dp"
+        android:textColor="@color/buttontext"
+        android:textSize="14sp"
+        />
+
+    <EditText
+        android:id="@+id/editTextCode"
+        android:layout_width="wrap_content"
+        android:layout_height="35sp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="40dp"
+        android:paddingLeft="15dp"
+        android:ems="10"
+        android:hint="   OTP"
+        android:background="@drawable/inputtext"
+        android:layout_below="@+id/textView4"
+        android:inputType="textMultiLine"
+        android:textColorHint="@android:color/black" />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/otp_title"
+        android:background="@drawable/inputtext"
+        android:layout_marginTop="40dp"
+        android:layout_centerHorizontal="true"
+        android:paddingLeft="10sp"
+        android:paddingRight="10sp"
+        android:textSize="25sp"
+       />
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="341dp"
+        android:layout_height="50dp"
+        android:paddingTop="5dp"
+        android:layout_centerHorizontal="true"
+        android:paddingLeft="10dp"
+        android:layout_marginTop="20dp"
+        android:text="@string/otp_desc"
+        android:textSize="15sp"
+        android:layout_below="@+id/textView3"
+        android:background="@drawable/inputtext"
+        tools:text="@string/otp_desc" />
+
+
+</RelativeLayout>

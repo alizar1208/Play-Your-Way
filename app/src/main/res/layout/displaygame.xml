@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:layout_marginLeft="5dp"
+        android:layout_marginTop="5dp"
+        android:layout_marginRight="5dp"
+        android:orientation="vertical"
+        android:background="@drawable/displaytile">
+
+        <TextView
+            android:id="@+id/teamname"
+            android:layout_width="match_parent"
+            android:textAllCaps="true"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="10dp"
+            android:textColor="#ffffff"
+            android:layout_marginRight="20dp"
+            android:text="Team Name"
+            android:textSize="18sp"
+            android:textStyle="bold" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <ImageView
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="17dp"
+                android:src="@drawable/date" />
+
+            <TextView
+                android:id="@+id/date"
+                android:layout_width="100dp"
+                android:layout_height="30dp"
+                android:layout_marginLeft="10dp"
+                android:textColor="#ffffff"
+                android:layout_marginTop="20dp"
+                android:text="Date"
+                android:textSize="16sp" />
+
+            <ImageView
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="17dp"
+                android:src="@drawable/time" />
+
+            <TextView
+                android:id="@+id/time"
+                android:layout_width="100dp"
+                android:layout_height="30dp"
+                android:layout_marginLeft="10dp"
+                android:textColor="#ffffff"
+                android:layout_marginTop="20dp"
+                android:text="time"
+                android:textSize="16sp" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <ImageView
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="17dp"
+                android:src="@drawable/map" />
+
+            <TextView
+                android:id="@+id/Distance"
+                android:layout_width="100dp"
+                android:layout_height="30dp"
+                android:layout_marginLeft="10dp"
+                android:textColor="#ffffff"
+                android:layout_marginTop="20dp"
+                android:text="Distance"
+                android:textSize="16sp" />
+
+            <ImageView
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="17dp"
+                android:src="@drawable/myfriends" />
+
+            <TextView
+                android:id="@+id/playersleft"
+                android:layout_width="150dp"
+                android:layout_height="30dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="20dp"
+                android:text="Players Left"
+                android:textColor="#ffffff"
+                android:textSize="16sp" />
+
+        </LinearLayout>
+
+        <Button
+            android:id="@+id/request"
+            android:layout_width="120dp"
+            android:layout_height="50dp"
+            android:layout_gravity="center"
+            android:layout_marginTop="5dp"
+            android:background="@drawable/button"
+            android:text="Request"
+            android:textAlignment="center"
+            android:textColor="@color/buttontext"
+            android:textSize="16dp" />
+
+    </LinearLayout>
+
+</RelativeLayout>

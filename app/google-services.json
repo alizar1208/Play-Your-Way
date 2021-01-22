@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "712038857001",
+    "firebase_url": "https://play-your-way.firebaseio.com",
+    "project_id": "play-your-way",
+    "storage_bucket": "play-your-way.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:712038857001:android:3333219ed66d2a93",
+        "android_client_info": {
+          "package_name": "com.example.playyourway"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "712038857001-s5dmv3adv7i2tb9uj5dr8mn95hn92mqj.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.playyourway",
+            "certificate_hash": "e5dc7493ad03f0d6a79c16907675e6b2e21ae604"
+          }
+        },
+        {
+          "client_id": "712038857001-8vn6noof3gs1tqr3r8c0salle74ds6b7.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyASwrE-ddPl8jBlb52Jy4Vv5dk8s6TO6Q4"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "712038857001-8vn6noof3gs1tqr3r8c0salle74ds6b7.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

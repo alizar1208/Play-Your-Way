@@ -1,0 +1,141 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorProfile"
+    tools:context=".ClickPostActivity">
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/teamname1"
+        android:paddingTop="3dp"
+        android:background="@drawable/inputtext"
+        android:layout_width="300dp"
+        android:layout_height="40dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="50dp"
+        android:text="Team Name"
+        android:textAlignment="center"
+        android:textAllCaps="true"
+
+        android:textSize="26dp"
+        android:textStyle="bold" />
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:layout_gravity="left"
+        android:gravity="left"
+        android:layout_marginLeft="20dp">
+    <ImageView
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:src="@drawable/date" />
+        <TextView
+            android:layout_width="200dp"
+            android:paddingLeft="10dp"
+            android:layout_height="35dp"
+            android:paddingTop="3dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="5dp"
+            android:background="@drawable/inputtext"
+            android:text="Date"
+            android:id="@+id/date1"
+            android:textSize="20dp"/>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:layout_gravity="left"
+        android:gravity="left"
+        android:layout_marginLeft="20dp">
+        <ImageView
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:src="@drawable/time" />
+        <TextView
+            android:layout_width="200dp"
+            android:layout_height="35dp"
+            android:background="@drawable/inputtext"
+            android:paddingLeft="10dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="5dp"
+            android:text="Time"
+            android:paddingTop="3dp"
+            android:id="@+id/time1"
+            android:textSize="20dp"/>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:layout_gravity="left"
+        android:gravity="left"
+        android:layout_marginLeft="20dp">
+        <ImageView
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:src="@drawable/map" />
+        <TextView
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:background="@drawable/inputtext"
+            android:layout_marginTop="5dp"
+            android:paddingBottom="5dp"
+            android:paddingRight="10dp"
+            android:paddingLeft="10dp"
+            android:text="Place"
+            android:id="@+id/place1"
+            android:textSize="20dp"/>
+    </LinearLayout>
+
+    <TextView
+        android:layout_width="150dp"
+        android:layout_height="30dp"
+        android:paddingLeft="10dp"
+        android:textSize="14dp"
+        android:paddingTop="3dp"
+        android:layout_marginLeft="85dp"
+        android:layout_marginTop="5dp"
+        android:background="@drawable/inputtext"
+        android:layout_gravity="left"
+        android:text="Distance"
+        android:id="@+id/distance1"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:layout_gravity="left"
+        android:gravity="left"
+        android:layout_marginLeft="20dp">
+        <de.hdodenhof.circleimageview.CircleImageView
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:id="@+id/capimg"
+            android:src="@drawable/profile1" />
+        <TextView
+            android:layout_width="250dp"
+            android:layout_height="35dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="5dp"
+            android:background="@drawable/inputtext"
+            android:text="Captain"
+            android:paddingTop="3dp"
+            android:id="@+id/captain1"
+            android:paddingLeft="10dp"
+            android:textAllCaps="true"
+            android:textSize="20dp"/>
+    </LinearLayout>
+
+
+
+</LinearLayout>
+</RelativeLayout>
